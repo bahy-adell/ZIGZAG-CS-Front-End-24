@@ -1,0 +1,159 @@
+:root{
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --bg-PreTime: hsl(330, 100%, 98%);
+    --bg-outside: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --Nutmeg: hsl(14, 45%, 36%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    background-color: var(--bg-outside);
+    padding: 80px 0;
+}
+.container{  
+    background-color:var(--White);
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-bottom: 20px;
+}
+.textcontainer{
+    padding:  0 20px;
+    font-family: outfit;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Bg-Img{
+    padding: 20px ; 
+}
+/* ----------------------------------------------- */
+.title{
+    color: var(--Dark-Charcoal);
+}
+.title h1 {
+    font-family: young-serif;
+    font-weight: 400; 
+    padding: 5px 0;
+    font-size:2.4rem ;  
+}
+/* ---------------------------------------------- */
+.pretime{
+    padding: 10px;
+    background-color: var(--bg-PreTime);
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.pretime h3 {
+    color: var(--Dark-Raspberry); 
+    padding: 5px;
+    margin-left: 21px;
+}
+.pretime li {
+    padding: 5px;
+    margin-left: 50px;
+    color: var(--Dark-Charcoal);
+    list-style-position: outside;
+ }
+.pretime li::marker {
+   color: var(--Dark-Raspberry); 
+   font-size: 11px;
+}
+.pretime li span , .instruction span {
+    font-weight: 500;
+}
+/* --------------------------------------------- */
+.ingrediants{   
+    margin-top: 20px;
+}
+.ingrediants h2 {
+    padding: 5px;
+    font-size: 1.5rem;
+    font-family: young-serif ;
+    color: var(--Nutmeg);
+    font-weight: 400; 
+}
+.ingrediants li {
+    padding: 5px;
+    margin-left: 21px;
+    font-weight: 300;
+}
+.ingrediants li::marker{
+    color: var(--Nutmeg); 
+    font-size: 11px;
+}
+.line{
+    margin-top: 20px;
+    height: 1px;
+    width: 100%;
+   background-color:  var(--Dark-Charcoal);
+   opacity:20% ;
+}
+/* ----------------------------------------------------- */
+.instruction , .nutrition{
+    margin-top: 20px;
+}
+
+.instruction h2 , .nutrition h2 {
+    padding: 5px;
+    font-size: 1.5rem;
+    font-family: young-serif ;
+    color: var(--Nutmeg);
+    font-weight: 400; 
+}
+.instruction li::marker{
+    color: var(--Nutmeg); 
+    font-weight: 500;
+}
+.instruction li  {
+    padding: 5px;
+    margin-left: 29px;
+    font-weight: 300;
+    color: var(--Dark-Charcoal);
+}
+/* ------------------------------------------------------------- */
+.nutrition p{
+    padding: 5px;
+    font-weight: 300;
+    color: var(--Dark-Charcoal);
+}
+.nutrition .table {
+    display: flex;
+    flex-direction: column;
+    
+}
+.nutrition .table .row , .nutrition .table .row4 {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.normal {
+    width: 65%;
+}
+.table .red{
+    width: 35%;
+    color: var( --Nutmeg) ;
+    font-weight: 700;
+}
+.table .red , .table .normal{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.linenew{
+    height: 1px;
+    width: 100%;
+   background-color:  var(--Dark-Charcoal);
+   opacity:20% ;
+}
