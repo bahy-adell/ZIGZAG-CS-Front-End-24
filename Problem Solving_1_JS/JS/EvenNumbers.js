@@ -1,7 +1,5 @@
-/* B. Even Numbers
-Given a number N. Print all even numbers between 1 and N inclusive in separate lines.
+// problem ---> https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/B
 
-*/
 function EvenNumbers(num){
     for (let i = 1; i <= num; i++) {
         if (i % 2 === 0) {

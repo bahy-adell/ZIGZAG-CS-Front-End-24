@@ -1,9 +1,6 @@
-// M. Lucky Numbers
-// Given two numbers A and B
-//  . Print all lucky numbers between A and B inclusive.
-//  Note:
-//  The Lucky number is any positive number that its decimal representation contains only 4 and 7.
-//  For example: numbers 4, 7, 47 and 744 are lucky and numbers 5, 17 and 174 are not.
+ // problem ---> https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/M
+
+
 
  function isLucky(number) {
    let numstr = number.toString();

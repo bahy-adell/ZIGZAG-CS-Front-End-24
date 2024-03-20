@@ -1,8 +1,5 @@
-/*G. Summation from 1 to N
-Given a number N
-. Print the summation of the numbers that is between 1 and N
- (inclusive).
-*/
+// problem ---> https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/G
+
 
  function summation(num) {
     let sum = 0;

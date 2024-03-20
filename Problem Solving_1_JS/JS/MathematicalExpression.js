@@ -1,11 +1,4 @@
-/* W. Mathematical Expression
-Given a mathematical expression. The expression will be one of the following expressions:
-A + B = C, A - B = C and A * B = C
-
-where A, B, C are three numbers, S is the sign between A and B, and Q the '=' sign
-
-Print "Yes" If the expression is Right , Otherwise print the right answer of the expression.
-*/
+// problem ---> https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/W
 
 let num1 = prompt("Please enter a number1:");
 let sign = prompt("Please enter a sign:");

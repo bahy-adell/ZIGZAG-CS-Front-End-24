@@ -1,6 +1,4 @@
-/*  K. Max and Min
-Given 3 numbers A, B and C, Print the minimum and the maximum numbers
-*/ 
+// problem ---> https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K
 
  function MinMax(num1, num2, num3) {
     let minimum = Math.min(num1, num2, num3);
